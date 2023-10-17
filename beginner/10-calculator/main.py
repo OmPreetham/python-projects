@@ -2,7 +2,6 @@ from art import logo
 
 print(logo)
 
-
 def arthemetic(operation, number_1, number_2):
     if operation == '+':
         return number_1 + number_2
