@@ -182,6 +182,8 @@ def data(player_name, player_tries):
         player_dict = {"win": 0}
         # matches loss
         player_dict = {"loss": 0}
+        # match streak
+        player_dict = {"max_streak": 0}
 
     # add name of the player
     player_dict["name"] = player_name
